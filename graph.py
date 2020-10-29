@@ -20,4 +20,3 @@ class Graph:
 
     def get_connections(self):
         return self.__connections
-
