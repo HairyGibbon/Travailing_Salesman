@@ -53,15 +53,6 @@ large_font = pygame.font.Font("freesansbold.ttf", 100)
 # Generating our Graph
 A = graph.Graph()
 
-# for num in range(random.randint(4, 10)):
-#     A.set_coordinates((random.randint(50, 550), random.randint(50, 550)))
-#     for p in range(len(A.get_coordinates()) - 1):
-#         if bool(random.getrandbits(1)):
-#             A.set_connections((p, num, random.randint(1, 10)))
-#
-# # A.set_coordinates((500, 500), (100, 100), (100, 200), (200, 100), (200, 200))
-# # A.set_connections((0, 1, 1), (0, 2, 4), (0, 3, 2), (1, 2, 2), (1, 3, 3), (2, 3, 8))
-
 
 # Player Function
 def player(x, y):
